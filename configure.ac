@@ -97,6 +97,7 @@ symbols/macintosh_vndr/Makefile
 symbols/motorola_vndr/Makefile
 symbols/nec_vndr/Makefile
 symbols/nokia_vndr/Makefile
+symbols/pine64_vndr/Makefile
 symbols/sgi_vndr/Makefile
 symbols/sharp_vndr/Makefile
 symbols/sony_vndr/Makefile

@@ -14,3 +14,5 @@
   nokiarx51	*			=	nokia_vndr/rx-51(common)+nokia_vndr/rx-51(%l[1]%_v[1])
  $thinkpads	br			=	pc+%l[1](thinkpad)
   *		*			=	pc+%l[1]%(v[1])
+  pine64pphwkbd de			=	pc+us+pine64_vndr/pp-hwkbd(common)+pine64_vndr/pp-hwkbd(%l)
+  pine64pphwkbd	*			=	pc+us+pine64_vndr/pp-hwkbd(common)

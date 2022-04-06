@@ -1,0 +1,72 @@
+default partial alphanumeric_keys xkb_symbols "common" {
+    key <AE01> {
+        type= "THREE_LEVEL",
+        symbols[Group1]= [               1,          exclam,	F1 ] };
+    key <AE02> {
+        type= "THREE_LEVEL",
+        symbols[Group1]= [               2,              at,	F2 ] };
+    key <AE03> {
+        type= "THREE_LEVEL",
+        symbols[Group1]= [               3,      numbersign,	F3 ] };
+    key <AE04> {
+        type= "THREE_LEVEL",
+        symbols[Group1]= [               4,          dollar,	F4 ] };
+    key <AE05> {
+        type= "THREE_LEVEL",
+        symbols[Group1]= [               5,         percent,	F5 ] };
+    key <AE06> {
+        type= "THREE_LEVEL",
+        symbols[Group1]= [               6,     asciicircum,	F6 ] };
+    key <AE07> {
+        type= "THREE_LEVEL",
+        symbols[Group1]= [               7,       ampersand,	F7 ] };
+    key <AE08> {
+        type= "THREE_LEVEL",
+        symbols[Group1]= [               8,        asterisk,	F8 ] };
+    key <AE09> {
+        type= "THREE_LEVEL",
+        symbols[Group1]= [               9,       parenleft,	F9 ] };
+    key <AE10> {
+        type= "THREE_LEVEL",
+        symbols[Group1]= [               0,      parenright,	F10 ]
+    };
+
+    key <RALT> {
+        type= "ONE_LEVEL",
+        symbols[Group1]= [           ISO_Level3_Shift ]
+    }; 
+    key <LVL3> {
+        type= "ONE_LEVEL",
+        symbols[Group1]= [ ISO_Level3_Shift ]
+    };
+
+    modifier_map Mod5 { <LVL3> };
+};
+
+partial alphanumeric_keys xkb_symbols "us" {
+    name[Group1] = "English (US)";
+};
+
+partial alphanumeric_keys xkb_symbols "de" {
+    name[Group1] = "German";
+
+    key <AC01> {
+        type= "FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [               a,               A,	adiaeresis ]
+    };
+
+    key <AC02> {
+        type= "FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [               s,               S,	ssharp ]
+    };
+
+    key <AD07> {
+        type= "FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [               u,               U,	udiaeresis ]
+    };
+
+    key <AD09> {
+        type= "FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [               o,               O,	odiaeresis ]
+    };
+};

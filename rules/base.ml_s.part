@@ -9,6 +9,8 @@
   jollasbj	*			=	jolla_vndr/sbj(common)+%l%(v)
   motoroladroid4    $nonlatin		=	motorola_vndr/droid4(common)+us+%l%(v):2
   motoroladroid4    *			=	motorola_vndr/droid4(common)+%l%(v)
+  pine64pphwkbd	de			=	pc+us+pine64_vndr/pp-hwkbd(common)+pine64_vndr/pp-hwkbd(%l)
+  pine64pphwkbd	*			=	pc+us+pine64_vndr/pp-hwkbd(common)
  $sun		$sun_custom		=	pc+sun_vndr/%l%(v)
   pc98		nec_vndr/jp		=	nec_vndr/jp(pc98)
   macintosh_old	us			=	macintosh_vndr/us(oldmac)
